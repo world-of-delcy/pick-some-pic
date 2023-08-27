@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+// @import url(https://fonts.googleapis.com/css?family=Gilda+Display&family=Neucha&display=swap);
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 380px;
+}
+footer {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+* {
+  // font-family: "Neucha", cursive;
+  font-family: "Sriracha", cursive;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.link {
+  text-decoration: none !important;
+}
+.search-btn {
+  border-left: none !important;
+  border-bottom-right-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.search-input {
+  min-width: 0 !important;
+  border: 1px solid black !important;
+  border-right: none !important;
+  border-bottom-left-radius: 15px !important;
+  border-top-left-radius: 15px !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+.nav-item .active {
+  font-weight: bolder;
+}
+.nav-item .nav-link {
+  padding: 0% !important;
+}
+.posts-container {
+  padding: 0;
+  width: fit-content;
+  margin: auto;
+}
+.card-item {
+  cursor: pointer;
+  height: fit-content;
+  min-height: 220px;
+}
+
+.color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 2.5rem;
+  border: 1px solid grey;
+  border-radius: 1rem;
+  color: white;
+}
